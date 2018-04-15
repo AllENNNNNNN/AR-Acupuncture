@@ -9,7 +9,7 @@ class MarkFace
 public:
 
 	void MarkPoints();
-
+	void MouseHandle(int event, int x, int y, int flags, void *param);//鼠标回调函数
 
 private:
 

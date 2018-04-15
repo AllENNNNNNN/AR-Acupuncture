@@ -8,16 +8,23 @@
 #include <opencv2/opencv.hpp> 
 #include <dlib/gui_widgets.h>
 
+
 using namespace dlib;
 using namespace std;
 
+//void MarkFace::onMouse(int event, int x, int y, int flags, void *param)//鼠标回调函数
+//{
+//}
 
 void MarkFace::MarkPoints()
 {
+
+ 
 	try
 	{
 		cv::VideoCapture cap(0);
 		image_window win;
+		cv::namedWindow("image", 1);
 		//cap.set(CV_CAP_PROP_FRAME_WIDTH, 640);  
 		//cap.set(CV_CAP_PROP_FRAME_HEIGHT, 480);  
 		// Load face detection and pose estimation models.  
@@ -205,6 +212,7 @@ void MarkFace::MarkPoints()
 	{
 		cout << e.what() << endl;
 	}
+
 	system("pause");
 
 
