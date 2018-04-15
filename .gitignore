@@ -3,3 +3,8 @@
 .vs/dlib02/v15/Browse.VC.db
 .vs/dlib02/v15/ipch/1df193fab29d898a.ipch
 dlib02/dlib02.vcxproj
+dlib02/x64/Release/dlib02.log
+dlib02/x64/Release/dlib02.obj
+dlib02/x64/Release/dlib02.pch
+dlib02/x64/Release/stdafx.obj
+dlib02/x64/Release/vc141.pdb
